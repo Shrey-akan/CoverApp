@@ -1,0 +1,14 @@
+.content{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.boxsmall{
+    background-color: rgb(248, 220, 151);
+    opacity: 0.4;
+    color: black;
+    margin-top: 5px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,146 @@
+<!--Search Box-->
+<div class="container">
+    <div class="row" style="margin-left: 300px;">
+        <div class="col-md-4">
+            <input type="text" placeholder="SEARCH" name="" id="search">
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary" id="button1"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="col-md-2" style="margin-top: 20px;">
+            <a href="" style="color: blue;"><i class="fa-solid fa-circle-user fa-2x"></i></a>
+        </div>
+        <div class="col-md-2" style="margin-top: 20px;">
+            <a href="" style="color: red;"><i class="fa-regular fa-heart fa-2x"></i></a>
+        </div>
+        <div class="col-md-2" style="margin-top: 20px;">
+            <a href="" style="color: rgb(126, 10, 10);"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+        </div>
+    </div>
+</div>
+<!--header-->
+<nav class="navbar navbar-expand-lg">
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <i class="fa fa-toggle-on" aria-hidden="true"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto">
+            <a routerLink="/home" routerLinkActive="active" class="nav-item nav-link">HOME</a>
+            <div class="nav-item dropdown">
+                <a routerLink="/collection" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">COLLECTIONS</a>
+                <div class="dropdown-menu">
+                    <a routerLink="" class="dropdown-item">Home Decor </a>
+                    <a routerLink="" class="dropdown-item">Decorative items </a>
+                    <a routerLink="" class="dropdown-item">Metal Handicrafts</a>
+                    <a routerLink="" class="dropdown-item">Wooden Handicrafts </a>
+                    <a routerLink="" class="dropdown-item">Pooja Accessories </a>
+                    <a routerLink="" class="dropdown-item">Sculptures & Statue</a>
+                </div>
+            </div>
+            <a routerLink="/arrival" routerLinkActive="active" class="nav-item nav-link">NEW ARRIVAL</a>
+            <a routerLink="/selling" routerLinkActive="active" class="nav-item nav-link ">BEST SELLING</a>
+            <a routerLink="/contact" routerLinkActive="active" class="nav-item nav-link">CONTACT US</a>
+        </div>
+    </div>
+</nav>
+
+<!--Routing-->
+<router-outlet></router-outlet>
+
+
+<!--Footer-->
+<div class="footer" style="background-color: #04073a;">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="container">
+                        <h2>Useful Links</h2>
+                    </div>
+                    <div class="container">
+                        <ul>
+                            <a routerLink="/home" routerLinkActive="active"><li>Home</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li>Our Story</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li>Sign Up</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li>Login</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li>Wishlist</li></a>
+                            <a routerLink="/contact" routerLinkActive="active"><li>Contact Us</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="container">
+                        <h2>My Collections</h2>
+                    </div>
+                    <div class="container">
+                        <ul>
+                            <a routerLink="/home" routerLinkActive="active"><li>Home Decor</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li> Decorative items</li></a>                            
+                            <a routerLink="/home" routerLinkActive="active"><li>Metak Handicrafts</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li>Wooden Handicrafts</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li>Pooja Accessories</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li> Sculptures & Status</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="container">
+                        <h2 style="color: white;">Get Help</h2>
+                    </div>
+                    <div class="container">
+                        <ul>
+                            <a routerLink="/home" routerLinkActive="active"><li>Track Your Order</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li>Shipping & Delivery Policy</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li>Return & Refund Policy</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li>Privacy Policy</li></a>
+                            <a routerLink="/home" routerLinkActive="active"><li>Terms & Conditions</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="container">
+                        <h2 style="color: white;">Contact Us</h2>
+                    </div>
+                    <div class="container">
+                        <li><i class="fa-solid fa-phone"></i>+91-8048616709</li>
+                        <li><i class="fa-solid fa-mailbox"></i>info@abchandicrafts.com</li>
+                        <li><i class="fa-solid fa-location-dot"></i>No, 1-2, Badanpura Main Road, O/S Gangapole Gate
+                            Jaipur-302002(Raj) Gangapole Amer Road , Jaipur -302002, Rajsthan,India</li>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569849%7Cb%7Cfacebook%20%27%7C&placement=&creative=589460569849&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D9301731%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwzuqgBhAcEiwAdj5dRiKgIfD5DH2B2BdAc4tvr7HCmEHS42qj_P6kTngg9x6XweY5OIbjPxoC-CgQAvD_BwE"
+                                    style="color: darkblue;"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="https://twitter.com/login?lang=en" style="color: blue;"><i
+                                        class="fa-brands fa-twitter fa-2x"></i></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="https://instagram.com/login?lang=en" style="color: red;"><i
+                                        class="fa-brands fa-square-instagram fa-2x"></i></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="https://linkedin.com/login?lang=en" style="color: lightblue;"><i
+                                        class="fa-brands fa-linkedin fa-2x"></i></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="https://whatsapp.com/login?lang=en" style="color: lightgreen;"><i
+                                        class="fa-brands fa-whatsapp fa-2x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>ABC handicrafts. All Rights Reserved |  Design and Developed by Daksh infosoft Pvt.Ltd</p>
+            </div>
+            <div class="col-md-6">
+                <a href="" style="color: blue;"><i class="fa-brands fa-cc-visa fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
